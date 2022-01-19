@@ -5,17 +5,16 @@
 
 Le pseudo-élément **`::marker`** représente le marqueur d'un élément d'une liste (par exemple la puce ou le numéro de l'élément d'un élément [`<li>`](https://developer.mozilla.org/fr/docs/Web/HTML/Element/li)). Ce pseudo-élément ne fonctionne que pour les éléments ou pseudo-éléments pour lesquels [`display`](https://developer.mozilla.org/fr/docs/Web/CSS/display) vaut `list-item` (par défaut c'est le cas des éléments [`<li>`](https://developer.mozilla.org/fr/docs/Web/HTML/Element/li) et [`<summary>`](https://developer.mozilla.org/fr/docs/Web/HTML/Element/summary)).
 
-IE ne le supporte pas :![enter image description here](https://github.com/lekalekal/discovery/blob/main/1.jpg?raw=true)
+![enter image description here](https://github.com/lekalekal/discovery/blob/main/1.jpg?raw=true)
 
 [DEMO](http://cepegra-labs.be/webdesign/fed2021/rostislav/discovery/marker.html)
-//////////////////////////////////////////////////////////////////////////////////////////////
--
-**:not**
+
   
 
 ## Propriétés  
 
 **flex-grow/flex-shrink/flex-basis**
+Supporté partout.
 
 flex-grow
 
@@ -28,3 +27,5 @@ La propriété **`flex-shrink`** définit le facteur de rétrécissement d'un é
 flex-basis
 
 La propriété **`flex-basis`** détermine la base de flexibilité utilisée comme taille initiale principale pour un élément flexible. Cette propriété détermine la taille de la boîte de contenu sauf si une autre boîte est visée par [`box-sizing`](https://developer.mozilla.org/fr/docs/Web/CSS/box-sizing).
+
+[DEMO](http://cepegra-labs.be/webdesign/fed2021/rostislav/discovery/flex.html)
