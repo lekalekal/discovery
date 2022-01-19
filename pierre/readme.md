@@ -5,7 +5,7 @@
 
 Le pseudo-élément **`::marker`** représente le marqueur d'un élément d'une liste (par exemple la puce ou le numéro de l'élément d'un élément [`<li>`](https://developer.mozilla.org/fr/docs/Web/HTML/Element/li)). Ce pseudo-élément ne fonctionne que pour les éléments ou pseudo-éléments pour lesquels [`display`](https://developer.mozilla.org/fr/docs/Web/CSS/display) vaut `list-item` (par défaut c'est le cas des éléments [`<li>`](https://developer.mozilla.org/fr/docs/Web/HTML/Element/li) et [`<summary>`](https://developer.mozilla.org/fr/docs/Web/HTML/Element/summary)).
 
-![enter image description here](https://github.com/lekalekal/discovery/blob/main/1.jpg?raw=true)
+![enter image description here](http://cepegra-labs.be/webdesign/fed2021/rostislav/discovery/1.jpg)
 
 [DEMO](http://cepegra-labs.be/webdesign/fed2021/rostislav/discovery/marker.html)
 
@@ -168,4 +168,3 @@ L'ordre des informations à mettre dans `mask` :
 `mask-mode|mask-position|mask-size|mask-repeat|mask-origin|mask-clip|mask-composite` 
 Par exemple :
 `mask: url(mask.png)  50%  50%  / contain no-repeat border-box luminance;`
-
