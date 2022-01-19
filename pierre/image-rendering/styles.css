@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.redi {
+    width: 800px;
+}
+
+.prop {
+    width: 800px;
+    image-rendering: pixelated;
+}
