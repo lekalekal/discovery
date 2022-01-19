@@ -125,10 +125,14 @@ Permet à un élément de filtrer le `background` d'une certaine manière (par e
 Valeur par défaut : `normal` (affiche la couleur de l'élément)
 Autres valeurs possibles : `multiply|screen|overlay|darken|lighten|color-dodge|color-burn|difference|exclusion|hue|saturation|color|luminosity` 
 
+![enter image description here](http://cepegra-labs.be/webdesign/fed2021/emile/html/css3/demo_css/mix-blend-mode.png)
+
 ### 2. mask
 [DEMO](http://cepegra-labs.be/webdesign/fed2021/emile/html/css3/demo_css/mask/)
 
 Mask permet de masquer une partie d'une image avec une autre image. C'est un peu comme si on rognait ou découpait l'image, sauf qu'au lieu de simplement dire à une partie de l'image "disparais" on dit à chaque pixel de devenir plus ou moins transparent.
+
+![enter image description here](http://cepegra-labs.be/webdesign/fed2021/emile/html/css3/demo_css/caniuse-mask.png)
 
 #### mask-image
 Fonctionne comme `background-image`
