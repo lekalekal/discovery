@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    display: flex;
+    gap: 3em;
+    margin: 3em;
+}
+
+.wrapper-light, .wrapper-dark {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+h1, p {
+    font-size: 2vw;
+}
+
+.wrapper-light h1, .wrapper-light p {
+    color: #fff;
+}
+
+
+.wrapper-dark h1, .wrapper-dark p {
+    color: #333;
+}
+
+a {
+    width: fit-content;
+}
+
+.bg img {
+    width: 100%;
+}
+
+.text-overlay {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.logo {
+    margin: 3em;
+}
+
+.logo img {
+    height: 20vw;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        flex-direction: column;
+    }
+}
