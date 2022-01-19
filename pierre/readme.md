@@ -1,4 +1,4 @@
-# image-rendering
+﻿# image-rendering
 La propriété **`image-rendering`** fournit une indication au navigateur à propos de l'algorithme qui devrait être utilisé pour redimensionner les images.
 
 Par défaut, chaque navigateur va tenter d'appliquer de l'aliasing à une image redimensionnée, ce qui peut être un soucis si on veut garder l'aspect pixelisé d'une image (important pour les QR codes par exemple).
@@ -48,3 +48,5 @@ La balise img est utilisée en last-child afin d'assurer une source si aucune de
 ![enter image description here](https://cdn.discordapp.com/attachments/895668688441704500/933291336336031764/unknown.png)
 
 **source**![enter image description here](https://cdn.discordapp.com/attachments/895668688441704500/933294742291243049/unknown.png)
+
+
