@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div>
+        <h3>Voici l'image d'un QR code non redimensionnée</h3>
+        <img src="./img/phpqrcode1.png" alt="">
+    </div>
+
+    <div>
+        <h3>La même image redimensionnée avec de l'aliasing (paramètre par défaut de image-render). On observe clairemment qu'elle est floue.</h3>
+        <img class="redi" src="./img/phpqrcode1.png" alt="">
+    </div>
+
+    <div>
+        <h3>La même image redimensionnée avec la valeur css image-render: pixelated.</h3>
+        <img class="prop" src="./img/phpqrcode1.png" alt="">
+    </div>
+</body>
+</html>
