@@ -1,0 +1,13 @@
+ol li::marker {
+    color: red;
+    font-weight: bold;
+}
+
+ul li::marker {
+    font-size: 35px;
+    color: lightgreen;
+}
+
+.df{
+    display: flex;
+}
