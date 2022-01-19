@@ -49,4 +49,31 @@ La balise img est utilisée en last-child afin d'assurer une source si aucune de
 
 **source**![enter image description here](https://cdn.discordapp.com/attachments/895668688441704500/933294742291243049/unknown.png)
 
+# :not
 
+La propriété CSS **`:not`** permet de cibler les éléments qui ne sont pas resprésentés par l'argument qu'on lui assigne.
+
+**exemples**
+```css
+/* Sélectionne n'importe quel élément qui n'est */
+/* pas un paragraphe */
+:not(p) {
+  color: blue;
+}
+
+/* Contient tous les paragraphes (p) sauf
+   ceux avec le sélecteur de class "classy" */
+p:not(.classy) {
+  color: red;
+}
+
+/* Les éléments qui ne sont pas des paragraphes */
+/* et qui n'ont pas la classe "classy" */
+/* Note : cette syntaxe n'est pas bien supportée */
+body :not(.classy, p) {
+  font-family: sans-serif;
+}
+```
+**demo:** http://cepegra-labs.be/webdesign/fed2021/pierrede/property/not/
+
+### Compatibilité![enter image description here](https://cdn.discordapp.com/attachments/895668688441704500/933331132299214918/unknown.png)
