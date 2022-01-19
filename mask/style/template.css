@@ -3,6 +3,9 @@ body {
     display: flex;
     gap: 3em;
     margin: 3em;
+    height: fit-content;
+    font-family: 'IM Fell English SC', serif;
+    background: url(../img/Parchemin6.jpg) no-repeat center/cover;
 }
 
 .wrapper {
@@ -13,5 +16,24 @@ body {
 
 img {
     width: 100%;
-    mask: url('../img/stain-alpha.png') center / cover no-repeat;
+    -webkit-mask-image: url(../img/stain-alpha.png);
+    mask-image: url(../img/stain-alpha.png);
+    -webkit-mask-size: cover;
+    mask-size: cover;  
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;  
+}
+
+h1 {
+    color: #fff;
+    opacity: .7;
+    width: 100%;
+    font-size: 15vw;
+    text-align: center;
+    font-weight: 400;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: hard-light;
 }
