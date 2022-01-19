@@ -5,51 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="http://cepegra-labs.be/webdesign/fed2021/rostislav/discovery/styles.css">
     <title>Document</title>
 </head>
 <body>
-    ::marker
-    <div class="df">
-    <div>
-    <ol>
-        <li>Lorem ipsum dolor sit amet.</li>
-        <li>Corporis aliquam excepturi neque deleniti.</li>
-        <li>Incidunt eos repellendus vitae deserunt!</li>
-    </ol>
-    
-    <ul>
-        <li>Lorem ipsum dolor sit amet.</li>
-        <li>Laborum molestias consequuntur soluta ab.</li>
-        <li>Et veniam suscipit quod qui.</li>
-    </ul>
-</div>
-<div>
+    flex-grow
+    <div class="divfex">
+            <span>1</span>
+            <span class="second">2</span>
+            <span>3</span>
+            </div>
+
     <xmp>
-        <ol>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Corporis aliquam excepturi neque deleniti.</li>
-            <li>Incidunt eos repellendus vitae deserunt!</li>
-        </ol>
-        
-        <ul>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Laborum molestias consequuntur soluta ab.</li>
-            <li>Et veniam suscipit quod qui.</li>
-        </ul>
+        <div class="divfex">
+            <span>1</span>
+            <span class="second">2</span>
+            <span>3</span>
+            </div>
     </xmp>	
                 <xmp>
-        ol li::marker {
-            color: red;
-            font-weight: bold;
-        }
-        
-        ul li::marker {
-            font-size: 35px;
-            color: lightgreen;
-        }
-        
+                    .divfex{
+                        display: flex;
+                        border: 1px solid black;
+                    }
+                    .second{
+                        flex-grow: 2;
+                        border: 1px solid black;
+                    }
     </xmp>
 </div>
+
+
 </div>
+
+
 </body>
 </html>
