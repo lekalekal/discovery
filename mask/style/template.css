@@ -13,5 +13,5 @@ body {
 
 img {
     width: 100%;
-    mask: url('../img/stain.png') center / cover no-repeat;
+    mask: url('../img/stain-alpha.png') center / cover no-repeat;
 }
